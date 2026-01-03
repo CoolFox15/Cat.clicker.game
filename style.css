@@ -38,11 +38,12 @@ h1 {
   cursor: pointer;
   outline: none; 
   transition: transform 0.1s;
+  
   color: #A34972;
   font-family: 'Rubik Bubbles', cursive;
   font-size: 16px;
 
-  padding-top: 160px;
+  padding-top: 150px;
   text-align: center;
 }
 
