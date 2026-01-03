@@ -30,17 +30,21 @@ h1 {
   width: 150px;
   height: 150px;
   border: none;
-  background-image: url('cat.png'); /* make sure path is correct */
+  background-image: url('cat.png'); 
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
   cursor: pointer;
-  outline: none; /* optional, removes focus border */
-  transition: transform 0.1s; /* smooth click animation */
+  outline: none; 
+  transition: transform 0.1s;
+  color: #91BBEA;
+  font-family: 'Rubik Bubbles', cursive;
+  font-size: 16px;
+  text-shadow: 1px 1px 2px white;
 }
 
 #clickBtn:active {
-  transform: scale(1.1); /* button grows slightly when clicked */
+  transform: scale(1.1); 
 }
 
