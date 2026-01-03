@@ -27,8 +27,8 @@ h1 {
 }
 
 #clickBtn {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   border: none;
   background-image: url('cat.png'); 
   background-size: contain;
