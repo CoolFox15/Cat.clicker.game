@@ -18,6 +18,8 @@ h1 {
   font-weight: bold;
   color: #A34972;
   margin-left: 10px;
+  bottom: 10px;
+  left: 10px;
 }
 
 #label {
@@ -59,7 +61,6 @@ h1 {
   border: none;
   border-radius:12px; 
 
-  position: fixed;
   top: 10px;
   left:10px;
 
