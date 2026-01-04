@@ -66,3 +66,15 @@ h1 {
 
 }
 
+#autoClickBtn {
+  margin-top: 15px; 
+  padding: 10px 16px;
+  font-family: 'Rubik Bubbles', cursive;
+  font-size: 14px;
+  color: #483D3C;
+  background-color: #47FAAC;
+  border: none;
+  border-radius: 12px;
+}
+
+  
