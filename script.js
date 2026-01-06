@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     let count = 0;
     let cps = 0;
-    let autoCost = 150;
+    let autoCost = 50;
     let priceMultiplier = 1.5; 
     
     const button = document.getElementById("clickBtn");
@@ -35,7 +35,10 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     setInterval(() => {
-        count += cps;
+        if (cps > 0) {
+            count += cps;
+            display.textContent = count;
+        }
     }, 1000);
     
 });
