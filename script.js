@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     autoCostSpan.innerText = autoCost; 
-    autoBtn.addEventListener("click", () => {
+    autoBtn.addEventListener("click", function() {
         if (count >= autoCost) {
             count -= autoCost;
             cps += 1;
