@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const display = document.getElementById("count");
     const reset = document.getElementById("resetBtn");
     const autoBtn = document.getElementById("autoClickBtn");
-    const autoCostSpan = document.getElementById("autocost";
+    const autoCostSpan = document.getElementById("autoCost");
 
     button.addEventListener("click", function() {
         count++;
@@ -22,19 +22,19 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     autoCostSpan.innerText = autoCost; 
-    autoBtn.addEventListener("click", () => {
-        if (clicks >= autoCost) {
-            clicks -= autoCost;
+    autoBtn.addEventListener("click", () {
+        if (count >= autoCost) {
+            count -= autoCost;
             cps += 1;
 
-            autoCost = math.floor(autoCOst * priceMultiplier);
+            autoCost = Math.floor(autoCost * priceMultiplier);
             autoCostSpan.innerText = autoCost;
         } else {
             alert("Not enough clicks!");
         }
     });
 
-    SetInterval(() => {
+    setInterval(() => {
         clicks += cps;
     }, 1000);
     
