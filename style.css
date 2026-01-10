@@ -85,13 +85,14 @@ h1 {
 }
 
 #milestones {
-  background-image: url('100clicks.png');
   width: 400px;
   height: 250px;
   border: none;
+  background-image: url('100clicks.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-color: transparent;
+  outline: none; 
   position: absolute;
   top: 40px;
   left: 10px;
