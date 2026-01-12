@@ -40,12 +40,13 @@ document.addEventListener("DOMContentLoaded", function() {
         if (cps > 0) {
             count += cps;
             display.textContent = count;
+        }
         if (count > 100) {
            const image100 = document.createElement ('img'); 
-            image100.src ('100clicks.png');
+            image100.src = '100clicks.png';
             milestones.appendChild (image100); 
         }
-        }
+        
     }, 1000);
     
 });
