@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (count > 100) {
            const image100 = document.createElement ('img'); 
             image100.src = '100clicks.png';
-            milestones.appendChild (image100); 
+            milestones.replaceChildren (image100); 
         }
         
     }, 1000);
