@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const reset = document.getElementById("resetBtn");
     const autoBtn = document.getElementById("autoClickBtn");
     const autoCostSpan = document.getElementById("autoCost");
+    const milestones = document.getElementById("milestonesimage"); 
 
     button.addEventListener("click", function() {
         count++;
@@ -39,6 +40,11 @@ document.addEventListener("DOMContentLoaded", function() {
         if (cps > 0) {
             count += cps;
             display.textContent = count;
+        if (count > 100) {
+           const image100 = document.createElement ('img'); 
+            image100.src ('100clicks.png');
+            milestones.appendChild (image100); 
+        }
         }
     }, 1000);
     
