@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let cps = 0;
     let autoCost = 50;
     let priceMultiplier = 1.5; 
+    let diamonds = 0; 
     
     const button = document.getElementById("clickBtn");
     const display = document.getElementById("count");
